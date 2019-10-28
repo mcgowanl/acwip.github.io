@@ -1,0 +1,139 @@
+/*****BASE STYLES*****/
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+	width:1200px;
+}
+
+
+/***** HEADER *****/
+
+header{
+	height: 450px;
+	background: url('../img/hero-image.png');
+	background-size: cover;
+	margin: 70px;
+	padding: 100px;
+}
+
+header h1{
+	width: 1000px;
+	clear: both;
+	color: #ffd633;
+	font-family: 'Lora', serif;
+	font-size: 60px;
+	line-height: 80px
+	height: 500px;
+	width: 800px;
+	text-align: center;
+}
+
+header h2{
+	color:  #ffffcc;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 20px;
+	width: 800px;
+}
+
+
+nav ul li{	text-transform: uppercase;
+	
+}
+
+nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #e65c00;
+	
+}
+
+/***** ABOUT *****/
+
+
+#GetAquainted{
+	float: left;
+	text-align: center;
+	width: 400px;
+}
+
+
+#GetInformed{
+	float: right;
+	text-align: center;
+	width: 400px;
+}
+
+
+#GetInvolved{
+	margin: 0 auto;
+	text-align: center;
+	width: 400px;
+}
+
+
+
+/***** THE FOUNDER *****/
+
+#TheFounder {
+	width: 50px
+	height: 250px;
+	padding: 20px;
+	margin: 100px;
+	
+}
+
+#TheFounder p{
+	width: 500px;
+	float: right;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin-right: 70px;
+	text-align: center;
+	background-color: #ff8533;	
+}
+
+#TheFounder img{
+	margin-left: 100px;
+}
+
+
+
+
+/***** FOOTER *****/
+
+h3{
+	margin-top: 5px;
+	font-size: 32px;
+	text-align: center;
+	text-decoration: underline;
+}
+	
+
+.email,.address, .phonenumber{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: source sans pro;
+	text-align: center;
+}
+
+.email{
+	float:left;
+	width: 500px;
+}
+
+.phonenumber{
+	margin: 0 auto;
+	width: 500px;
+}
+
+.address{
+	float: right;
+	width: 500px;
+}
+
+
+
+
